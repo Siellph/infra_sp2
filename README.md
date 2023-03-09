@@ -114,7 +114,7 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input
 ```
 
-Можно перейти по адресу (http://localhost/admin/)[http://localhost/admin/login/?next=/admin/] и убедиться, что все работает
+Можно перейти по адресу [http://localhost/admin/](http://localhost/admin/login/?next=/admin/) и убедиться, что все работает
 ----
 
 ### Как импортировать данные из csv-файлов в базу данных
